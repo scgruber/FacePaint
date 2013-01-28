@@ -19,7 +19,7 @@ void setup() {
 }
 
 void draw() {
-  if (face.found > 0 && keyPressed) {
+  if (face.found > 0) {
     pushMatrix();
     translate(face.posePosition.x, face.posePosition.y);
     scale(face.poseScale);
